@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EE36553F2228B2490A5096E8BCDB55 /* BRAddressPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D71F1FB5DF0698AC089B9EC0FD9F2DA2 /* BRAddressPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FA58C2DE116FFB4AD470634F5153448 /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A799C731249B39A5EBB17FC7870C9 /* NSBundle+BRPickerView.m */; };
+		2F7B20A56539BAB4A721BFF4A52A1173 /* Pods-ObjecCKnowledgePoints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C69F7B50A376FB04ABE051435E48BE /* Pods-ObjecCKnowledgePoints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		341B74F0B38CC9CAB4F71F4BAD42875A /* BRStringPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 432570AF7FEEA982C01BA871AF4E15CB /* BRStringPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		341D939A6B2A13D721C6D7242418B85B /* BRPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 766F78AB2D06182502E422BAC55BFE0D /* BRPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36713F2C2549A0E6248698488DEE610E /* BRResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9DA2DA6FD2C34B74E5853F5BA0AD4 /* BRResultModel.m */; };
+		3D732BE214FBBD2D8FBC2B3BF9F396C3 /* BRBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD79FC513AF0643EB5D2E85B50B3BEE /* BRBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57AC339A6E4D0E9265432E6E0B48E322 /* BRPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7207A2BC200E1921F3872CDFB279C81A /* BRPickerView.bundle */; };
+		64D4D7767A8BF3CBB1E0657DF5F24E25 /* NSDate+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B52E10048A2BB56F6C90A14CAC0486 /* NSDate+BRPickerView.m */; };
+		6989813D74581800F8BC3E15D0C306A2 /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA38EC961872D9AEADE2369690245B7 /* BRAddressModel.m */; };
+		6A8A39675B5159796EC59A5887EB1BC3 /* Pods-ObjecCKnowledgePoints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC82A8A25AF7802AC7A93025485AAAAB /* Pods-ObjecCKnowledgePoints-dummy.m */; };
+		6D01EA6F9529DB1B375AA3C5BF97C6C7 /* BRPickerStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 425351D1570A832B1B85982BBE2C1E30 /* BRPickerStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		776C9560B2C0EF704377656D941D8778 /* BRDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E494EBB3576C27A76973D5958ADB8E4 /* BRDatePickerView.m */; };
+		7BE962044C68426BF51AD43C72749AFF /* BRDatePickerView+BR.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6BACA8AB6E7B953375A19EB5C5F895 /* BRDatePickerView+BR.m */; };
+		7C93DFAC31B7D759E91B26C81C9DB344 /* BRAddressModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F49C6206C04B0A7BD31FAC30461CA89 /* BRAddressModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81196DBB6CCD3C99889F8B841910EEF1 /* BRDatePickerView+BR.h in Headers */ = {isa = PBXBuildFile; fileRef = 49AE8017DF391071F9421561E8701D6E /* BRDatePickerView+BR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92D65EB626F9C92E3D3874A632FC035B /* BRPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2508F08FB41D1089533A15661F3604 /* BRPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		946BCA9AC81786E36971D70EF627807A /* BRResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 333BF379D825F2D61FE7C0A137D1135E /* BRResultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5FA8DBDDFD6B5179805764CB6D73D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B5E8CB3B6FF846216DBD204E4875ABA3 /* BRPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0188D59F4EC3BD73D0BC3E76857CFE1A /* BRPickerView-dummy.m */; };
+		BE8FED18C7E662307CB4F3F7947C7791 /* NSBundle+BRPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDC6A4FFDF0DA41A1E4526FEF28067C /* NSBundle+BRPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7FA18EC58469DF6D52F51B21A75DDF8 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EA0ED965C97DC9A94A51C49BC74C1D /* BRStringPickerView.m */; };
+		CB9B735E0063865853F06BDA7AF7932A /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E524F2A4DCD10E7FB625EA4EAA1699F6 /* BRAddressPickerView.m */; };
+		CD10BB0ED77DB7694B30098D813B6D2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CFC88D30E26D31E94F6EF6CE0BCA9503 /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8140826E65E343514C2622A654CB312F /* BRBaseView.m */; };
+		D8EF222C96FC1B5E52E32414291255A9 /* BRDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B526F9117D286F9B6DC895218E8C02 /* BRDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98982564BC1C3B25AFB23DB2352FB9F /* BRPickerStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C782CEE3D332645DF07C91A10B7C00 /* BRPickerStyle.m */; };
+		DD7F2C313A8CC2F23CBD7CB905DDE5C4 /* BRPickerViewMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FDDFA3CDFB9C3228A387177DCB94955 /* BRPickerViewMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E733A517B5083237BA0EABF72ADCE4C6 /* NSDate+BRPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4421927A2BE29623BE0C40ADC8169D68 /* NSDate+BRPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77CB6F93482C1EA085CAB6E124A6D8A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D505645C3F99EB1E8B6529D64D2C3E1C;
+			remoteInfo = BRPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0080041C0B120B564E7D7ACBD1EA2FF4 /* Pods-ObjecCKnowledgePoints-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjecCKnowledgePoints-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0188D59F4EC3BD73D0BC3E76857CFE1A /* BRPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRPickerView-dummy.m"; sourceTree = "<group>"; };
+		06C782CEE3D332645DF07C91A10B7C00 /* BRPickerStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRPickerStyle.m; path = BRPickerView/Base/BRPickerStyle.m; sourceTree = "<group>"; };
+		1B7CBD4BC23EBD53152B928147934630 /* BRPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRPickerView.release.xcconfig; sourceTree = "<group>"; };
+		1F2A799C731249B39A5EBB17FC7870C9 /* NSBundle+BRPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+BRPickerView.m"; path = "BRPickerView/Base/NSBundle+BRPickerView.m"; sourceTree = "<group>"; };
+		1F49C6206C04B0A7BD31FAC30461CA89 /* BRAddressModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRAddressModel.h; path = BRPickerView/AddressPickerView/BRAddressModel.h; sourceTree = "<group>"; };
+		28AE9A1CF2719EDBE5793EE470123FA6 /* Pods-ObjecCKnowledgePoints-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjecCKnowledgePoints-frameworks.sh"; sourceTree = "<group>"; };
+		2B6BACA8AB6E7B953375A19EB5C5F895 /* BRDatePickerView+BR.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BRDatePickerView+BR.m"; path = "BRPickerView/DatePickerView/BRDatePickerView+BR.m"; sourceTree = "<group>"; };
+		333BF379D825F2D61FE7C0A137D1135E /* BRResultModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRResultModel.h; path = BRPickerView/StringPickerView/BRResultModel.h; sourceTree = "<group>"; };
+		3CCAFCA031027EB133E64DD264BD4EE4 /* Pods-ObjecCKnowledgePoints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjecCKnowledgePoints.release.xcconfig"; sourceTree = "<group>"; };
+		3CDC6A4FFDF0DA41A1E4526FEF28067C /* NSBundle+BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+BRPickerView.h"; path = "BRPickerView/Base/NSBundle+BRPickerView.h"; sourceTree = "<group>"; };
+		3FDDFA3CDFB9C3228A387177DCB94955 /* BRPickerViewMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerViewMacro.h; path = BRPickerView/Base/BRPickerViewMacro.h; sourceTree = "<group>"; };
+		425351D1570A832B1B85982BBE2C1E30 /* BRPickerStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerStyle.h; path = BRPickerView/Base/BRPickerStyle.h; sourceTree = "<group>"; };
+		432570AF7FEEA982C01BA871AF4E15CB /* BRStringPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRStringPickerView.h; path = BRPickerView/StringPickerView/BRStringPickerView.h; sourceTree = "<group>"; };
+		4421927A2BE29623BE0C40ADC8169D68 /* NSDate+BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+BRPickerView.h"; path = "BRPickerView/DatePickerView/NSDate+BRPickerView.h"; sourceTree = "<group>"; };
+		4496AA2604347FACD8A16B3D2C235539 /* BRPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRPickerView.debug.xcconfig; sourceTree = "<group>"; };
+		49AE8017DF391071F9421561E8701D6E /* BRDatePickerView+BR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BRDatePickerView+BR.h"; path = "BRPickerView/DatePickerView/BRDatePickerView+BR.h"; sourceTree = "<group>"; };
+		5BA6046B4C2674409C0D5625F45F8769 /* BRPickerView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BRPickerView; path = BRPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B526F9117D286F9B6DC895218E8C02 /* BRDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRDatePickerView.h; path = BRPickerView/DatePickerView/BRDatePickerView.h; sourceTree = "<group>"; };
+		6E2508F08FB41D1089533A15661F3604 /* BRPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRPickerView-umbrella.h"; sourceTree = "<group>"; };
+		7207A2BC200E1921F3872CDFB279C81A /* BRPickerView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BRPickerView.bundle; path = BRPickerView/Base/BRPickerView.bundle; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		766F78AB2D06182502E422BAC55BFE0D /* BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerView.h; path = BRPickerView/BRPickerView.h; sourceTree = "<group>"; };
+		7E494EBB3576C27A76973D5958ADB8E4 /* BRDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRDatePickerView.m; path = BRPickerView/DatePickerView/BRDatePickerView.m; sourceTree = "<group>"; };
+		8140826E65E343514C2622A654CB312F /* BRBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRBaseView.m; path = BRPickerView/Base/BRBaseView.m; sourceTree = "<group>"; };
+		87EA0ED965C97DC9A94A51C49BC74C1D /* BRStringPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRStringPickerView.m; path = BRPickerView/StringPickerView/BRStringPickerView.m; sourceTree = "<group>"; };
+		8B1A460322998771C1A6B740636E27F6 /* Pods-ObjecCKnowledgePoints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjecCKnowledgePoints-Info.plist"; sourceTree = "<group>"; };
+		8BE4828D2F1CE5C937CAF62B21ADAB1C /* Pods-ObjecCKnowledgePoints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjecCKnowledgePoints.debug.xcconfig"; sourceTree = "<group>"; };
+		8E3FB8BE8190C564085C106660D19EEA /* Pods-ObjecCKnowledgePoints-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjecCKnowledgePoints-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D533126F39EB601B319FA1619B2D5BD /* Pods-ObjecCKnowledgePoints */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ObjecCKnowledgePoints"; path = Pods_ObjecCKnowledgePoints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A94019E1ACC0090EFD85FE4F1F5889D9 /* BRPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BRPickerView.modulemap; sourceTree = "<group>"; };
+		AA2E2BD3560D43EF9C2E6FA5C56C8A19 /* Pods-ObjecCKnowledgePoints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjecCKnowledgePoints.modulemap"; sourceTree = "<group>"; };
+		ACD79FC513AF0643EB5D2E85B50B3BEE /* BRBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRBaseView.h; path = BRPickerView/Base/BRBaseView.h; sourceTree = "<group>"; };
+		B5C69F7B50A376FB04ABE051435E48BE /* Pods-ObjecCKnowledgePoints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjecCKnowledgePoints-umbrella.h"; sourceTree = "<group>"; };
+		BAA38EC961872D9AEADE2369690245B7 /* BRAddressModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRAddressModel.m; path = BRPickerView/AddressPickerView/BRAddressModel.m; sourceTree = "<group>"; };
+		D2CBB4C26C74B86EA0B61F2EE7685EFA /* BRPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRPickerView-prefix.pch"; sourceTree = "<group>"; };
+		D71F1FB5DF0698AC089B9EC0FD9F2DA2 /* BRAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRAddressPickerView.h; path = BRPickerView/AddressPickerView/BRAddressPickerView.h; sourceTree = "<group>"; };
+		D8B52E10048A2BB56F6C90A14CAC0486 /* NSDate+BRPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+BRPickerView.m"; path = "BRPickerView/DatePickerView/NSDate+BRPickerView.m"; sourceTree = "<group>"; };
+		E524F2A4DCD10E7FB625EA4EAA1699F6 /* BRAddressPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRAddressPickerView.m; path = BRPickerView/AddressPickerView/BRAddressPickerView.m; sourceTree = "<group>"; };
+		EEB9DA2DA6FD2C34B74E5853F5BA0AD4 /* BRResultModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRResultModel.m; path = BRPickerView/StringPickerView/BRResultModel.m; sourceTree = "<group>"; };
+		F339539056317DAB64EEBA679F82B702 /* BRPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BRPickerView-Info.plist"; sourceTree = "<group>"; };
+		FC82A8A25AF7802AC7A93025485AAAAB /* Pods-ObjecCKnowledgePoints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjecCKnowledgePoints-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47A49258B6C89D776A526F02C411DB9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FA8DBDDFD6B5179805764CB6D73D7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801ADA6AC4CBCD60AC06EA23456FA70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD10BB0ED77DB7694B30098D813B6D2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1180AC5D4F11A383B2EC51B96B1CA82F /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				65B526F9117D286F9B6DC895218E8C02 /* BRDatePickerView.h */,
+				7E494EBB3576C27A76973D5958ADB8E4 /* BRDatePickerView.m */,
+				49AE8017DF391071F9421561E8701D6E /* BRDatePickerView+BR.h */,
+				2B6BACA8AB6E7B953375A19EB5C5F895 /* BRDatePickerView+BR.m */,
+				4421927A2BE29623BE0C40ADC8169D68 /* NSDate+BRPickerView.h */,
+				D8B52E10048A2BB56F6C90A14CAC0486 /* NSDate+BRPickerView.m */,
+			);
+			name = DatePickerView;
+			sourceTree = "<group>";
+		};
+		30B0C26317313F948C146EB399851C66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7207A2BC200E1921F3872CDFB279C81A /* BRPickerView.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		392437E7F8D31D0236EBD2D53D196C41 /* AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1F49C6206C04B0A7BD31FAC30461CA89 /* BRAddressModel.h */,
+				BAA38EC961872D9AEADE2369690245B7 /* BRAddressModel.m */,
+				D71F1FB5DF0698AC089B9EC0FD9F2DA2 /* BRAddressPickerView.h */,
+				E524F2A4DCD10E7FB625EA4EAA1699F6 /* BRAddressPickerView.m */,
+			);
+			name = AddressPickerView;
+			sourceTree = "<group>";
+		};
+		3A733841F98422BF667485ED0A9D6EBA /* BRPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				766F78AB2D06182502E422BAC55BFE0D /* BRPickerView.h */,
+				392437E7F8D31D0236EBD2D53D196C41 /* AddressPickerView */,
+				6D7165E0CB9C213E3BD121CFFDCD7F5B /* Base */,
+				1180AC5D4F11A383B2EC51B96B1CA82F /* DatePickerView */,
+				E2F1A6842AB24481017F666FAA497E19 /* StringPickerView */,
+				7E5709F865EDDF8E31BF70998CBE3D43 /* Support Files */,
+			);
+			name = BRPickerView;
+			path = BRPickerView;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D7165E0CB9C213E3BD121CFFDCD7F5B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				ACD79FC513AF0643EB5D2E85B50B3BEE /* BRBaseView.h */,
+				8140826E65E343514C2622A654CB312F /* BRBaseView.m */,
+				425351D1570A832B1B85982BBE2C1E30 /* BRPickerStyle.h */,
+				06C782CEE3D332645DF07C91A10B7C00 /* BRPickerStyle.m */,
+				3FDDFA3CDFB9C3228A387177DCB94955 /* BRPickerViewMacro.h */,
+				3CDC6A4FFDF0DA41A1E4526FEF28067C /* NSBundle+BRPickerView.h */,
+				1F2A799C731249B39A5EBB17FC7870C9 /* NSBundle+BRPickerView.m */,
+				30B0C26317313F948C146EB399851C66 /* Resources */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7E5709F865EDDF8E31BF70998CBE3D43 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94019E1ACC0090EFD85FE4F1F5889D9 /* BRPickerView.modulemap */,
+				0188D59F4EC3BD73D0BC3E76857CFE1A /* BRPickerView-dummy.m */,
+				F339539056317DAB64EEBA679F82B702 /* BRPickerView-Info.plist */,
+				D2CBB4C26C74B86EA0B61F2EE7685EFA /* BRPickerView-prefix.pch */,
+				6E2508F08FB41D1089533A15661F3604 /* BRPickerView-umbrella.h */,
+				4496AA2604347FACD8A16B3D2C235539 /* BRPickerView.debug.xcconfig */,
+				1B7CBD4BC23EBD53152B928147934630 /* BRPickerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BRPickerView";
+			sourceTree = "<group>";
+		};
+		B60B2DAD5D7E07BF0153E6C1D3044752 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3F27FBCE5FCA838889578BC44E711AE /* Pods-ObjecCKnowledgePoints */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B7C2C2D4CA4C863321144288F70A0C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA6046B4C2674409C0D5625F45F8769 /* BRPickerView */,
+				9D533126F39EB601B319FA1619B2D5BD /* Pods-ObjecCKnowledgePoints */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA17A218001E61E171412D4307250E10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A733841F98422BF667485ED0A9D6EBA /* BRPickerView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3F27FBCE5FCA838889578BC44E711AE /* Pods-ObjecCKnowledgePoints */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E2BD3560D43EF9C2E6FA5C56C8A19 /* Pods-ObjecCKnowledgePoints.modulemap */,
+				0080041C0B120B564E7D7ACBD1EA2FF4 /* Pods-ObjecCKnowledgePoints-acknowledgements.markdown */,
+				8E3FB8BE8190C564085C106660D19EEA /* Pods-ObjecCKnowledgePoints-acknowledgements.plist */,
+				FC82A8A25AF7802AC7A93025485AAAAB /* Pods-ObjecCKnowledgePoints-dummy.m */,
+				28AE9A1CF2719EDBE5793EE470123FA6 /* Pods-ObjecCKnowledgePoints-frameworks.sh */,
+				8B1A460322998771C1A6B740636E27F6 /* Pods-ObjecCKnowledgePoints-Info.plist */,
+				B5C69F7B50A376FB04ABE051435E48BE /* Pods-ObjecCKnowledgePoints-umbrella.h */,
+				8BE4828D2F1CE5C937CAF62B21ADAB1C /* Pods-ObjecCKnowledgePoints.debug.xcconfig */,
+				3CCAFCA031027EB133E64DD264BD4EE4 /* Pods-ObjecCKnowledgePoints.release.xcconfig */,
+			);
+			name = "Pods-ObjecCKnowledgePoints";
+			path = "Target Support Files/Pods-ObjecCKnowledgePoints";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BA17A218001E61E171412D4307250E10 /* Pods */,
+				B7C2C2D4CA4C863321144288F70A0C6E /* Products */,
+				B60B2DAD5D7E07BF0153E6C1D3044752 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2F1A6842AB24481017F666FAA497E19 /* StringPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				333BF379D825F2D61FE7C0A137D1135E /* BRResultModel.h */,
+				EEB9DA2DA6FD2C34B74E5853F5BA0AD4 /* BRResultModel.m */,
+				432570AF7FEEA982C01BA871AF4E15CB /* BRStringPickerView.h */,
+				87EA0ED965C97DC9A94A51C49BC74C1D /* BRStringPickerView.m */,
+			);
+			name = StringPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		220D911ADFBB06126E78FC1D7DCCA5A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C93DFAC31B7D759E91B26C81C9DB344 /* BRAddressModel.h in Headers */,
+				18EE36553F2228B2490A5096E8BCDB55 /* BRAddressPickerView.h in Headers */,
+				3D732BE214FBBD2D8FBC2B3BF9F396C3 /* BRBaseView.h in Headers */,
+				D8EF222C96FC1B5E52E32414291255A9 /* BRDatePickerView.h in Headers */,
+				81196DBB6CCD3C99889F8B841910EEF1 /* BRDatePickerView+BR.h in Headers */,
+				6D01EA6F9529DB1B375AA3C5BF97C6C7 /* BRPickerStyle.h in Headers */,
+				341D939A6B2A13D721C6D7242418B85B /* BRPickerView.h in Headers */,
+				92D65EB626F9C92E3D3874A632FC035B /* BRPickerView-umbrella.h in Headers */,
+				DD7F2C313A8CC2F23CBD7CB905DDE5C4 /* BRPickerViewMacro.h in Headers */,
+				946BCA9AC81786E36971D70EF627807A /* BRResultModel.h in Headers */,
+				341B74F0B38CC9CAB4F71F4BAD42875A /* BRStringPickerView.h in Headers */,
+				BE8FED18C7E662307CB4F3F7947C7791 /* NSBundle+BRPickerView.h in Headers */,
+				E733A517B5083237BA0EABF72ADCE4C6 /* NSDate+BRPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66B7F9D9FF7FC68DDA50276D3305A0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7B20A56539BAB4A721BFF4A52A1173 /* Pods-ObjecCKnowledgePoints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		196A07D13F4219141911A6043993709D /* Pods-ObjecCKnowledgePoints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FA5BDA35B19EE4FDB8394E27379719 /* Build configuration list for PBXNativeTarget "Pods-ObjecCKnowledgePoints" */;
+			buildPhases = (
+				A66B7F9D9FF7FC68DDA50276D3305A0E /* Headers */,
+				66B4A2456D6B0C633AF99A163493563D /* Sources */,
+				801ADA6AC4CBCD60AC06EA23456FA70B /* Frameworks */,
+				9F482C578A94AFBC706893AF6AF786F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D8942EB3E578205C0293CDCB58BFEA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-ObjecCKnowledgePoints";
+			productName = Pods_ObjecCKnowledgePoints;
+			productReference = 9D533126F39EB601B319FA1619B2D5BD /* Pods-ObjecCKnowledgePoints */;
+			productType = "com.apple.product-type.framework";
+		};
+		D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761D0872F1224ADDA4B11DC8DAD84368 /* Build configuration list for PBXNativeTarget "BRPickerView" */;
+			buildPhases = (
+				220D911ADFBB06126E78FC1D7DCCA5A4 /* Headers */,
+				98DD163BD044CF93A7BA9999A8C10A6F /* Sources */,
+				47A49258B6C89D776A526F02C411DB9F /* Frameworks */,
+				B9770C013E5BAA544CC3347B4861CCB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRPickerView;
+			productName = BRPickerView;
+			productReference = 5BA6046B4C2674409C0D5625F45F8769 /* BRPickerView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B7C2C2D4CA4C863321144288F70A0C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */,
+				196A07D13F4219141911A6043993709D /* Pods-ObjecCKnowledgePoints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F482C578A94AFBC706893AF6AF786F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9770C013E5BAA544CC3347B4861CCB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AC339A6E4D0E9265432E6E0B48E322 /* BRPickerView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66B4A2456D6B0C633AF99A163493563D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8A39675B5159796EC59A5887EB1BC3 /* Pods-ObjecCKnowledgePoints-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DD163BD044CF93A7BA9999A8C10A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6989813D74581800F8BC3E15D0C306A2 /* BRAddressModel.m in Sources */,
+				CB9B735E0063865853F06BDA7AF7932A /* BRAddressPickerView.m in Sources */,
+				CFC88D30E26D31E94F6EF6CE0BCA9503 /* BRBaseView.m in Sources */,
+				776C9560B2C0EF704377656D941D8778 /* BRDatePickerView.m in Sources */,
+				7BE962044C68426BF51AD43C72749AFF /* BRDatePickerView+BR.m in Sources */,
+				D98982564BC1C3B25AFB23DB2352FB9F /* BRPickerStyle.m in Sources */,
+				B5E8CB3B6FF846216DBD204E4875ABA3 /* BRPickerView-dummy.m in Sources */,
+				36713F2C2549A0E6248698488DEE610E /* BRResultModel.m in Sources */,
+				C7FA18EC58469DF6D52F51B21A75DDF8 /* BRStringPickerView.m in Sources */,
+				1FA58C2DE116FFB4AD470634F5153448 /* NSBundle+BRPickerView.m in Sources */,
+				64D4D7767A8BF3CBB1E0657DF5F24E25 /* NSDate+BRPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D8942EB3E578205C0293CDCB58BFEA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRPickerView;
+			target = D505645C3F99EB1E8B6529D64D2C3E1C /* BRPickerView */;
+			targetProxy = 77CB6F93482C1EA085CAB6E124A6D8A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2DEE02B27B5BE2F985019DB3A6246CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCAFCA031027EB133E64DD264BD4EE4 /* Pods-ObjecCKnowledgePoints.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ObjecCKnowledgePoints/Pods-ObjecCKnowledgePoints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjecCKnowledgePoints/Pods-ObjecCKnowledgePoints.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FA92828D24E8B93C26119B0AFDF20A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4496AA2604347FACD8A16B3D2C235539 /* BRPickerView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BRPickerView/BRPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRPickerView/BRPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BRPickerView/BRPickerView.modulemap";
+				PRODUCT_MODULE_NAME = BRPickerView;
+				PRODUCT_NAME = BRPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		718A450842C90B39CD47F32D69404DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7CBD4BC23EBD53152B928147934630 /* BRPickerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BRPickerView/BRPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRPickerView/BRPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BRPickerView/BRPickerView.modulemap";
+				PRODUCT_MODULE_NAME = BRPickerView;
+				PRODUCT_NAME = BRPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F193C81351E98324637C4F3EF41EC8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE4828D2F1CE5C937CAF62B21ADAB1C /* Pods-ObjecCKnowledgePoints.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ObjecCKnowledgePoints/Pods-ObjecCKnowledgePoints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjecCKnowledgePoints/Pods-ObjecCKnowledgePoints.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761D0872F1224ADDA4B11DC8DAD84368 /* Build configuration list for PBXNativeTarget "BRPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA92828D24E8B93C26119B0AFDF20A9 /* Debug */,
+				718A450842C90B39CD47F32D69404DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FA5BDA35B19EE4FDB8394E27379719 /* Build configuration list for PBXNativeTarget "Pods-ObjecCKnowledgePoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F193C81351E98324637C4F3EF41EC8FF /* Debug */,
+				2DEE02B27B5BE2F985019DB3A6246CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

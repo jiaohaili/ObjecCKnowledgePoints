@@ -1,0 +1,27 @@
+PODS:
+  - BRPickerView (2.7.7):
+    - BRPickerView/AddressPickerView (= 2.7.7)
+    - BRPickerView/Base (= 2.7.7)
+    - BRPickerView/DatePickerView (= 2.7.7)
+    - BRPickerView/StringPickerView (= 2.7.7)
+  - BRPickerView/AddressPickerView (2.7.7):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.7.7)
+  - BRPickerView/DatePickerView (2.7.7):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.7.7):
+    - BRPickerView/Base
+
+DEPENDENCIES:
+  - BRPickerView
+
+SPEC REPOS:
+  trunk:
+    - BRPickerView
+
+SPEC CHECKSUMS:
+  BRPickerView: 5e9f843abd8055abef5aea0932b2744c728ccdf9
+
+PODFILE CHECKSUM: 9a29358fde371486a60005d7f97432b256e6259c
+
+COCOAPODS: 1.11.3
